@@ -1,0 +1,37 @@
+{
+  "config": {}
+}
+{
+  "vulnerability": {
+    "osv": {
+      "id": "GO-0000-0001",
+      "modified": "0001-01-01T00:00:00Z",
+      "published": "0001-01-01T00:00:00Z",
+      "details": "Third-party vulnerability",
+      "affected": [
+        {
+          "package": {
+            "name": "golang.org/vmod",
+            "ecosystem": ""
+          },
+          "ecosystem_specific": {
+            "imports": [
+              {
+                "goos": [
+                  "amd"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "modules": [
+      {
+        "path": "golang.org/vmod",
+        "found_version": "v0.0.1",
+        "fixed_version": "v0.1.3"
+      }
+    ]
+  }
+}
