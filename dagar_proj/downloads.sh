@@ -8,6 +8,8 @@ go install golang.org/x/tools/gopls@latest
 #go get -u github.com/antlr/antlr4/runtime/Go/antlr/v4
 #go install github.com/antlr/antlr4/runtime/Go/antlr/v4@latest
 
+go install github.com/cweill/gotests@latest
+
 go get -u honnef.co/go/tools/cmd/staticcheck/...
 go install honnef.co/go/tools/cmd/staticcheck@latest
 

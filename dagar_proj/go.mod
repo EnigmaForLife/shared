@@ -15,6 +15,7 @@ require (
 	github.com/clbanning/mxj/v2 v2.5.7
 	github.com/cristalhq/jwt/v3 v3.1.0
 	github.com/cristalhq/jwt/v5 v5.1.0
+	github.com/cweill/gotests v1.6.0
 	github.com/elastic/go-elasticsearch/v7 v7.17.10
 	github.com/elastic/go-elasticsearch/v8 v8.7.1
 	github.com/gmallard/stompngo v1.0.13
@@ -52,6 +53,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.7.27 // indirect
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.2.0 // indirect
+	golang.org/x/mod v0.10.0 // indirect
+	golang.org/x/tools v0.9.1 // indirect
 )
 
 require (

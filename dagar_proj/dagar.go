@@ -28,6 +28,7 @@ import (
 	_ "github.com/clbanning/mxj/v2"
 	_ "github.com/cristalhq/jwt/v3"
 	_ "github.com/cristalhq/jwt/v5"
+	_ "github.com/cweill/gotests"
 	_ "github.com/elastic/go-elasticsearch/v7"
 	_ "github.com/elastic/go-elasticsearch/v8"
 	_ "github.com/gmallard/stompngo"
