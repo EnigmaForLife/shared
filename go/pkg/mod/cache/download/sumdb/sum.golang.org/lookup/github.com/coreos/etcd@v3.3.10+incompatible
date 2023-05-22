@@ -3,7 +3,7 @@ github.com/coreos/etcd v3.3.10+incompatible h1:jFneRYjIvLMLhDLCzuTuU4rSJUjRplcJQ
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 
 go.sum database tree
-17241051
-78BqTW0N2yxoZGe1fOqKaEJiTdDtT8yYw9FXCyxrSLs=
+17595401
+risTZZpkjUZv0HOIBHOSqhvA/Pt/iVNF8fjdzF0eIBg=
 
-— sum.golang.org Az3grkvqEEAbXA+bPb8P9Ve8jaRetZVrhsGUkSjThvLmHZtlv6ptg0CpC3/6vkXulx7rhttuMlEb0NOYS/K9KHhtwQ4=
+— sum.golang.org Az3grn7BSvFd0gF6+evYy33LVuRcl3OZMfUW3I7erI0KKE+lVQ8mlYdEDeUHbZtKWi4F5+0rYt2F/7qERVApQFt1bgU=

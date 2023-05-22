@@ -3,7 +3,7 @@ github.com/securego/gosec v0.0.0-20200401082031-e946c8c39989 h1:rq2/kILQnPtq5oL4
 github.com/securego/gosec v0.0.0-20200401082031-e946c8c39989/go.mod h1:i9l/TNj+yDFh9SZXUTvspXTjbFXgZGP/UvhU1S65A4A=
 
 go.sum database tree
-17055180
-uswKruu6AzHZ1hA0ZbG1AecQTsp5ZFriG5VfzfiW1tg=
+17595040
++PvLUxdD7fFuByMqocOq1HfBKCXcluWcnLtlDJT3Vtw=
 
-— sum.golang.org Az3grqed6XwmW+uFg5lqtt/cLDbiLeNxdXwDqgfobNuUV5soWSCQVr4+771rfHE9ZB7Phzh5u0xF+ioF4xbzmQyvqAo=
+— sum.golang.org Az3grqAF56UXCbXUbhsurGRFejPQw5gowG0E8Hu+izLGjUJhtPWKBdDDUVvgfDug2M0KsrSZe6NkOaSfDxG5w/ZicAE=

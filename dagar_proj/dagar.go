@@ -9,25 +9,47 @@ import (
 	"strings"
 
 	_ "cirello.io/dynamolock"
+	_ "cirello.io/dynamolock/v2"
 	_ "github.com/DATA-DOG/go-sqlmock"
+	_ "github.com/StefanSchroeder/Golang-Ellipsoid"
 	_ "github.com/antlr/antlr4/runtime/Go/antlr"
+	_ "github.com/antlr4-go/antlr/v4"
+	_ "github.com/aws/aws-lambda-go/lambda"
+	_ "github.com/aws/aws-sdk-go-v2"
 	"github.com/aws/aws-sdk-go/aws"
+	_ "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
+	_ "github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/session"
+	_ "github.com/aws/aws-sdk-go/aws/session"
 	_ "github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/sts"
+	_ "github.com/aws/aws-sdk-go/service/sts"
 	_ "github.com/clbanning/mxj/v2"
+	_ "github.com/cristalhq/jwt/v3"
+	_ "github.com/cristalhq/jwt/v5"
+	_ "github.com/elastic/go-elasticsearch/v7"
+	_ "github.com/elastic/go-elasticsearch/v8"
 	_ "github.com/gmallard/stompngo"
 	_ "github.com/go-redis/redis/v8"
+	_ "github.com/go-swagger/go-swagger"
+	_ "github.com/google/uuid"
 	_ "github.com/hashicorp/go-secure-stdlib/awsutil"
 	vault "github.com/hashicorp/vault/api"
 	_ "github.com/hashicorp/vault/api/auth/aws"
-
 	_ "github.com/invopop/jsonschema"
+	_ "github.com/lib/pq"
+	_ "github.com/oklog/ulid"
+	_ "github.com/paulmach/orb"
 	_ "github.com/proullon/ramsql/driver"
+	_ "github.com/subosito/gotenv"
+	_ "github.com/ugorji/go/codec"
 	_ "github.com/uptrace/bun"
 	_ "github.com/uptrace/bun/dialect/pgdialect"
 	_ "github.com/uptrace/bun/driver/pgdriver"
+	_ "golang.org/x/net/dns/dnsmessage"
+	_ "golang.org/x/text"
+	_ "gonum.org/v1/gonum"
 	_ "google.golang.org/grpc/credentials/insecure"
 	_ "gopkg.in/tomb.v2"
 	_ "gorgonia.org/gorgonia"
@@ -36,16 +58,16 @@ import (
 var _ vault.Auth
 
 // Thing describes something with Featres
-type Thing struct { 
+type Thing struct {
 	// What to call it
-	Name string 
-	Count int
-	Safe bool
+	Name     string
+	Count    int
+	Safe     bool
 	Features []Property
 }
 
 type Property struct {
-	Name string
+	Name  string
 	Value interface{} // Could be anything
 }
 
@@ -58,7 +80,7 @@ func main() {
 
 		return resolved, err
 	}
-	
+
 	sess := session.Must(session.NewSession(&aws.Config{
 		Region:           aws.String("us-west-2"),
 		EndpointResolver: endpoints.ResolverFunc(myCustomResolver),
@@ -68,9 +90,9 @@ func main() {
 	req, _ := stsSvc.GetCallerIdentityRequest(&sts.GetCallerIdentityInput{})
 	fmt.Println(req.HTTPRequest.URL.String())
 
-	fields := map[string]bool{"TID":true,"Thing":true}
+	fields := map[string]bool{"TID": true, "Thing": true}
 	csvData := []byte(
-`TID,Thing,Val
+		`TID,Thing,Val
 A,optional,1
 B,mandatory,2
 C,junk,3`)
@@ -78,11 +100,13 @@ C,junk,3`)
 	csvReader := csv.NewReader(bytes.NewReader(csvData))
 	csvReader.LazyQuotes = true
 	line, err := csvReader.Read()
-	if err != nil {panic(err)}
+	if err != nil {
+		panic(err)
+	}
 
 	inputs := make(map[string]int)
-	var output struct{
-		Name string
+	var output struct {
+		Name  string
 		Index int
 	}
 	for i, col := range line {
@@ -111,10 +135,10 @@ C,junk,3`)
 	}
 	source = strings.TrimPrefix(source, " else ")
 
-	script := map[string]string {"source":source}
-	fieldDef := map[string]interface{} {"script": script}
-	sf := map[string]interface{} {output.Name: fieldDef}
-	query := map[string]interface{} {"script_fields": sf}
+	script := map[string]string{"source": source}
+	fieldDef := map[string]interface{}{"script": script}
+	sf := map[string]interface{}{output.Name: fieldDef}
+	query := map[string]interface{}{"script_fields": sf}
 
 	jbytes, _ := json.Marshal(query)
 	fmt.Println(string(jbytes))

@@ -3,7 +3,7 @@ github.com/letsencrypt/pkcs11key/v4 v4.0.0 h1:qLc/OznH7xMr5ARJgkZCCWk+EomQkiNTOo
 github.com/letsencrypt/pkcs11key/v4 v4.0.0/go.mod h1:EFUvBDay26dErnNb70Nd0/VW3tJiIbETBPTl9ATXQag=
 
 go.sum database tree
-17241422
-l4ND29LOfBD9aXlJg+oz9gYeNHopA4RRG//GzxQeDUA=
+17594436
+Lx8ygyrhR59Pc8Ms3r3Nf+Ha9UxZRMPIesC7Xyx3v4A=
 
-— sum.golang.org Az3grrB+En44p36QWa7LQuuExTH8VQR2AUJ0uIMQBiAcd9dgibtkIDVFvti4pmNJR72qUdIp0ul/UZj44eR3crJXfA4=
+— sum.golang.org Az3grqC5bniAiohluwCRgDHU9l0qQHNTBqLNBnw3QnfjtObtT1eNufrBw5lTIfTY3jtqjCHGTE0vxIoVAd+cA6datQI=

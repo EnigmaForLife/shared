@@ -3,7 +3,7 @@ github.com/hashicorp/go-syslog v1.0.0 h1:KaodqZuhUoZereWVIYmpUgZysurB1kBLX2j0MwM
 github.com/hashicorp/go-syslog v1.0.0/go.mod h1:qPfqrKkXGihmCqbJM2mZgkZGvKG1dFdvsLplgctolz4=
 
 go.sum database tree
-17052974
-oUYXlWxQFXcV+/3IiZwlm4ieyWZiudfjzcvdCS4dhEg=
+17595282
+ADRGKunhKkfkAs/Z/vJpHUKilCkuBtRc/1SBHmW1t9c=
 
-— sum.golang.org Az3grjwX6uYQ3rWtR8VmWkyU4R6NrkS0A/mqFI3/wOgk5RDS9/lezKqoOC1rSvZHwCQt7e8Ro0MG/40nJlP0JuEwIAw=
+— sum.golang.org Az3grj9ZRBVLZvMm+3Hc1Sr0Hd/xxlieZbIuzuSmIwayuxmLW0XN7VutdHNwaeQ9IN0zI6jSDRCPBFipNq1pvseEOgU=

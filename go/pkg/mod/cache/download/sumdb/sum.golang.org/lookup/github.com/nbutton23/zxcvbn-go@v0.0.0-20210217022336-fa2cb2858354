@@ -3,7 +3,7 @@ github.com/nbutton23/zxcvbn-go v0.0.0-20210217022336-fa2cb2858354 h1:4kuARK6Y6Fx
 github.com/nbutton23/zxcvbn-go v0.0.0-20210217022336-fa2cb2858354/go.mod h1:KSVJerMDfblTH7p5MZaTt+8zaT2iEk3AkVb9PQdZuE8=
 
 go.sum database tree
-17242890
-+o9CmtviGG4ORnKhnlLctDJdglDf32p8QBYKoMPXWMA=
+17595040
++PvLUxdD7fFuByMqocOq1HfBKCXcluWcnLtlDJT3Vtw=
 
-— sum.golang.org Az3grsBa4d34vqe3+ztJkehlDJgUdiZCj6jaRJp1r8OBUrnqUur55H1OpRRtx9wHb0y5VBL/yRQWG3BekWPBj6B1bwc=
+— sum.golang.org Az3grqAF56UXCbXUbhsurGRFejPQw5gowG0E8Hu+izLGjUJhtPWKBdDDUVvgfDug2M0KsrSZe6NkOaSfDxG5w/ZicAE=

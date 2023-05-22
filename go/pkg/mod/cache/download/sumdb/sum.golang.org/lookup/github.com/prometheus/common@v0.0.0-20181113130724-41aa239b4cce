@@ -3,7 +3,7 @@ github.com/prometheus/common v0.0.0-20181113130724-41aa239b4cce h1:X0jFYGnHemYDI
 github.com/prometheus/common v0.0.0-20181113130724-41aa239b4cce/go.mod h1:daVV7qP5qjZbuso7PdcryaAu0sAZbrN9i7WWcTMWvro=
 
 go.sum database tree
-17053390
-EvTCn+T2/WVsGYAjS7mR6fMegCcA0BgMi9nMrnuVke4=
+17595850
+dctqpwEBnINxoQVdCvRtE2oCgZ8/Kdxt6BQKDU1sBh8=
 
-— sum.golang.org Az3gruN+cuq1JGt5CT4R3RhpBFGnnsfIlXo/e8SuLe/cHwWxg8KqwT8LV34OhrtQQ3BgyzuY6b2PcDrhLG1qH5kTNwg=
+— sum.golang.org Az3grs69PfHDv0Wk/kwk7AhTzGLjelEhQLiEVYEs2vsjWWctetYjO8RDg5IkHlLVRnMQcQ/y2ft9c2mgFOZqEKXdygI=

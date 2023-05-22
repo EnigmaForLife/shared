@@ -3,7 +3,7 @@ github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223 h1:F9x/1yl3T2
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 
 go.sum database tree
-17053762
-5yTToYzFNn6I+5ntXMI8TWbqycNDQPNeCB2ezNfyO78=
+17594547
+7GKTMxii8V/Fh3v6mCgNxF0L8F4qrzxQztuj97SCbss=
 
-— sum.golang.org Az3griNWkH+HqsmTmVt1hsgrNWOdfZg33T1opu1ZILhaDj7HcK7PfVLL0qkghkrCgu2LH7tu2jGEUdu+2zQD0TKPhgQ=
+— sum.golang.org Az3grvfPoVFtV3HrG/4ozDITTF3LcviJCVM53DmXpYpGzCM7TwOC5csrD4ahrA1y0402Ebg8YEBgRHQOI/XWOmGilwM=

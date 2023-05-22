@@ -3,7 +3,7 @@ go.etcd.io/etcd v0.0.0-20200513171258-e048e166ab9c h1:/RwRVN9EdXAVtdHxP7Ndn/tfmM
 go.etcd.io/etcd v0.0.0-20200513171258-e048e166ab9c/go.mod h1:xCI7ZzBfRuGgBXyXO6yfWfDmlWd35khcWpUa4L0xI/k=
 
 go.sum database tree
-17242652
-mN8/9jh+eujs5VjDf6vCQoEYzMA+Eyun2UACkJ7EoXY=
+17594598
+iL2kx+N0OlH/r01L1HAgalrjsvWpe6jyI2CKFInLrgo=
 
-— sum.golang.org Az3grlDqQLbJiUzViWmyiPsBlWoOr2/q1vptsrxH570VpREafQwCvPdatt6MAAWbrqTAI3pvlQMmraR7oJFaTVItFQM=
+— sum.golang.org Az3grlalPkThSU5M2zggd14KSEn53S3J9AsK5EMx4Q0bbd1Y4O6go+vFqZK0XwVwUs82PDuX51YZAMWjRHM2RfCd8Qg=

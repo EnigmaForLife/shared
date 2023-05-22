@@ -3,7 +3,7 @@ cloud.google.com/go/pubsub v1.2.0 h1:Lpy6hKgdcl7a3WGSfJIFmxmcdjSpP6OmBEfcOv1Y680
 cloud.google.com/go/pubsub v1.2.0/go.mod h1:jhfEVHT8odbXTkndysNHCcx0awwzvfOlguIAii9o8iA=
 
 go.sum database tree
-17242592
-fO4naOuKrd+djqwqYdlcKHDxLB4SQ0D+LSz4sFYCdjE=
+17595378
+17n1K0hqB8Zz96r2AeeKYjHAxmW+E97xnU//9DCVNI0=
 
-— sum.golang.org Az3grl6VzsP1ZL7j+w5Mae+++RwITs1x7ei1n3pEBYEuQhQQbagGQ3TpsdfNcnvl4gbFE1sIgc6YNdrp4Z4CkBRIlgs=
+— sum.golang.org Az3grpTvOvmkHo24Xrol2nZOYRn7ctNvDdKqbWiFnfENzXRVQAOccgcL4EvosTpVN+tIAQp/KQB8INGw823vV0nKnQQ=

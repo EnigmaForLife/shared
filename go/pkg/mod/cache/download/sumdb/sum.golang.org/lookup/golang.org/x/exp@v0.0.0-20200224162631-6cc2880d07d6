@@ -3,7 +3,7 @@ golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 h1:QE6XYQK6naiK1EPAe1g/ILLxN
 golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6/go.mod h1:3jZMyOhIsHpP37uCMkUooju7aAi5cS1Q23tOzKc+0MU=
 
 go.sum database tree
-17241921
-+RS7A1Ppy77aXEv5zlaSaJyL+7Xf1aP+Bg3La4ExzLg=
+17595871
+b2iCU44hQZ481I44DfoJQRQMK6fQI3qDuJqoAUiDmNI=
 
-— sum.golang.org Az3gruoHkfH5X77qBWhPe8T0La+A+g91/O+8yN0r1TsDqKKRlXdSrkXOqfeM4obVkKq3mSTaI3rhjT9m54q3Irla8QE=
+— sum.golang.org Az3grpq1rzp02cVUTCEH1o4yto7p3G3uPGhauPPcCcLPqJcOUhuY2KntWAH02RT+RqJWcKIgTMJ6OG6DiXOeIk9uWgY=

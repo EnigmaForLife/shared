@@ -3,7 +3,7 @@ github.com/mozilla/tls-observatory v0.0.0-20210609171429-7bc42856d2e5 h1:0KqC6/s
 github.com/mozilla/tls-observatory v0.0.0-20210609171429-7bc42856d2e5/go.mod h1:FUqVoUPHSEdDR0MnFM3Dh8AU0pZHLXUD127SAJGER/s=
 
 go.sum database tree
-17241927
-+tPg7oRHZ+S0+WFgqmMXVdZA5m8KELfR757+Q61/5EA=
+17595920
+WD3t2+YhYVDYQqZwN35fL4/IEWLnUreibyB6pfW1XMA=
 
-— sum.golang.org Az3grqMuCoDC6iqo+0MsrIMILoh9XnTDwSyY+MMKCdDp/Hn8GShUY88EI4nF7tu1bhaXw5v7ni3eMBlV0oG6hMrSkgk=
+— sum.golang.org Az3grnC21tjDEj9Gro95aqW8ETL49Z1UQMDSrxsI/zd8LZpqBSXMsCCGXOR0+M0Ehdlmv1fCzOLipJ0gl3W0TbCipgE=

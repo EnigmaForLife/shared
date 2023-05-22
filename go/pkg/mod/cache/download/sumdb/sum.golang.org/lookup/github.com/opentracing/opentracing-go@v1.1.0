@@ -3,7 +3,7 @@ github.com/opentracing/opentracing-go v1.1.0 h1:pWlfV3Bxv7k65HYwkikxat0+s3pV4bsq
 github.com/opentracing/opentracing-go v1.1.0/go.mod h1:UkNAQd3GIcIGf0SeVgPpRdFStlNbqXla1AfSYxPUl2o=
 
 go.sum database tree
-17241824
-3XsglTmeqF4214AHFD+aZ6HYT+eyTM93duTHHM3uzS8=
+17595436
+1AH7VkAs/zikDCEmoiGVGgbtx2bTh1Y0BS+C6gIyimE=
 
-— sum.golang.org Az3grg46A0wvigVzLr6XlKdd/CeRgJ3W5loLjRjRqm7AV09nB+Q6QlsNlPqQRl3ZVzgWi/gQ+woQ3StxwHdUPq9fBAM=
+— sum.golang.org Az3grsbPiX/cTjh3k4saWQo+5Pd1blZkV3RDYlOjzKvNjvmThX6182ax9hz5e2MW4xzS7NpkVyw+q1HwG8g+S5FtaA4=

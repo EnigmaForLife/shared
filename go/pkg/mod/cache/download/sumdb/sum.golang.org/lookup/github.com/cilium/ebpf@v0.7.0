@@ -3,7 +3,7 @@ github.com/cilium/ebpf v0.7.0 h1:1k/q3ATgxSXRdrmPfH8d7YK0GfqVsEKZAX9dQZvs56k=
 github.com/cilium/ebpf v0.7.0/go.mod h1:/oI2+1shJiTGAMgl6/RgJr36Eo1jzrRcAWbcXO2usCA=
 
 go.sum database tree
-17054350
-NvfuucGMOmPkOH4nbafoZoZcn+P8xjDFVsIOJ+g+JxI=
+17595340
+w4jPS6h4xj+SqYDgUP4KPwZ6JEyTKS1bz7Sf6yMZEOA=
 
-— sum.golang.org Az3griiQ1z6B3bs+Cwy+a4Ovql9Hs872DIBxcSCLLckXv4Wp670JRQfGo4Qk8hZDkzvXflzAVlPhjLDKWXhsMsJ9vwo=
+— sum.golang.org Az3grljpMG67vX93W14vmPDEHG/eqDDAV1epy9+xm2e7vZSIMfIQF/8TtWyvMkFHIPRDVtLPqrJx5atwz/y0TwVXrwc=

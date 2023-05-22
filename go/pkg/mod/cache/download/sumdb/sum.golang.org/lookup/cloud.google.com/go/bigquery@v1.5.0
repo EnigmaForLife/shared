@@ -3,7 +3,7 @@ cloud.google.com/go/bigquery v1.5.0 h1:K2NyuHRuv15ku6eUpe0DQk5ZykPMnSOnvuVf6IHcj
 cloud.google.com/go/bigquery v1.5.0/go.mod h1:snEHRnqQbz117VIFhE8bmtwIDY80NLUZUMb4Nv6dBIg=
 
 go.sum database tree
-17242071
-9Pb7wRoeCqDMVIwdthF9VYUCnyJd0N40V+OmMB/l3Z0=
+17595398
+GPnMXJE2ApIhth6eTJ+cKG3nu0hdvaUEYbz1AyzilWc=
 
-— sum.golang.org Az3grjhWuKx8hC+ZvKtDOI9hHxJjvSUPdTlSQl57pFRrYAUpAqGYiM+FLnMeEYRJJjHE9J6Vht0N2gjltC4R3dccLQk=
+— sum.golang.org Az3groEjr9eD4rg/2bDh3nNf92xo3sRn38CP+KbYYyy0PFcOBESgKB3IzpS7zZV5GpljCYpcC1H62BO4U8WGP1omVAM=

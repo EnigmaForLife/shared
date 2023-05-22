@@ -3,7 +3,7 @@ github.com/google/certificate-transparency-go v1.0.21 h1:Yf1aXowfZ2nuboBsg7iYGLm
 github.com/google/certificate-transparency-go v1.0.21/go.mod h1:QeJfpSbVSfYc7RgB3gJFj9cbuQMMchQxrWXz8Ruopmg=
 
 go.sum database tree
-17241727
-wIAPULg4frFAA4XkxNAQKb9vG4r74MsUfHuIp3axIc8=
+17595868
+KJ4HNm6gy7HrCwSVcLsJkvdKlb7wbRdkNZnP3OZSLs8=
 
-— sum.golang.org Az3grqVyCbNOS0OWjzZUFMCpOxce8gJkOzJ8UX00IwkEtdZsBEb2l7ncdl+ejsssboZ66YIFoFMIlChW28Y3zTQQ8AQ=
+— sum.golang.org Az3grm4WlBh9Fzp82YYUNxB3tkeOfHmmwH4CqjOTRaF/V9dqsitMACIpkTEJxYFikJCaPGjk4dzI3C8qSdzavE1IbgE=
