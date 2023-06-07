@@ -31,6 +31,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	"github.com/aws/aws-sdk-go-v2/service/sns"
+	"github.com/aws/aws-sdk-go-v2/service/sns/snsiface"
 	_ "github.com/clbanning/mxj/v2"
 	_ "github.com/cristalhq/jwt/v3"
 	_ "github.com/cristalhq/jwt/v5"
