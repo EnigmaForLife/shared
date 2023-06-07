@@ -1,7 +1,0 @@
-definitions:
-  Error:
-    type: object
-    properties:
-      code:
-        type: integer
-        format: uint32

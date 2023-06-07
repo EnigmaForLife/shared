@@ -2,30 +2,31 @@
 set -x
 set -e
 
+go clean -cache
+go clean -modcache
+
+# Download/update latest in go.mod
+go get -u ./...
+
 #go get -u golang.org/x/tools/gopls/...
 go install golang.org/x/tools/gopls@latest
 
-#go get -u github.com/antlr/antlr4/runtime/Go/antlr/v4
-#go install github.com/antlr/antlr4/runtime/Go/antlr/v4@latest
-
-go install github.com/cweill/gotests@latest
-
-go get -u honnef.co/go/tools/cmd/staticcheck/...
+#go get -u honnef.co/go/tools/cmd/staticcheck/...
 go install honnef.co/go/tools/cmd/staticcheck@latest
 
-go get -u github.com/securego/gosec/v2/...
-go install github.com/securego/gosec/v2@latest
+#Not supported
+#go get -u github.com/securego/gosec/v2/...
+#go install github.com/securego/gosec@latest
+# binary will be $(go env GOPATH)/bin/gosec
+curl -sfL https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh -s -- -b $(go env GOPATH)/bin vX.Y.Z
 
-go get -u github.com/ramya-rao-a/go-outline/...
+#go get -u github.com/ramya-rao-a/go-outline/...
 go install github.com/ramya-rao-a/go-outline@latest
 
-go get -u github.com/go-delve/delve/cmd/dlv/...
+#go get -u github.com/go-delve/delve/cmd/dlv/...
 go install github.com/go-delve/delve/cmd/dlv@latest
 
-go get -u github.com/aws/aws-sdk-go-v2/...
-go install github.com/aws/aws-sdk-go-v2@latest
-
-go get -u github.com/cweill/gotests/...
-go install github.com/cweill/gotests@latest
+#go get -u github.com/jstemmer/go-junit-report/v2/junit/...
+go install github.com/jstemmer/go-junit-report/v2@latest
 
 go mod tidy

@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	_ "cirello.io/dynamolock"
+	//	_ "cirello.io/dynamolock"
 	_ "cirello.io/dynamolock/v2"
 	_ "github.com/DATA-DOG/go-sqlmock"
 	_ "github.com/StefanSchroeder/Golang-Ellipsoid"
@@ -16,21 +16,25 @@ import (
 	_ "github.com/antlr4-go/antlr/v4"
 	_ "github.com/aws/aws-lambda-go/lambda"
 	_ "github.com/aws/aws-sdk-go-v2"
-	"github.com/aws/aws-sdk-go/aws"
-	_ "github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	_ "github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/session"
-	_ "github.com/aws/aws-sdk-go/aws/session"
-	_ "github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/aws/aws-sdk-go/service/sts"
-	_ "github.com/aws/aws-sdk-go/service/sts"
+	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/aws/aws-sdk-go-v2/config"
+	"github.com/aws/aws-sdk-go-v2/credentials"
+	"github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression"
+	"github.com/aws/aws-sdk-go-v2/feature/s3/manager"
+	"github.com/aws/aws-sdk-go-v2/service/apigateway"
+	"github.com/aws/aws-sdk-go-v2/service/apigatewayv2"
+	"github.com/aws/aws-sdk-go-v2/service/dynamodb"
+	"github.com/aws/aws-sdk-go-v2/service/elasticache"
+	"github.com/aws/aws-sdk-go-v2/service/kinesis"
+	"github.com/aws/aws-sdk-go-v2/service/rds"
+	"github.com/aws/aws-sdk-go-v2/service/rds/types"
+	"github.com/aws/aws-sdk-go-v2/service/s3"
+	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
+	"github.com/aws/aws-sdk-go-v2/service/sns"
 	_ "github.com/clbanning/mxj/v2"
 	_ "github.com/cristalhq/jwt/v3"
 	_ "github.com/cristalhq/jwt/v5"
 	_ "github.com/cweill/gotests"
-	_ "github.com/elastic/go-elasticsearch/v7"
-	_ "github.com/elastic/go-elasticsearch/v8"
 	_ "github.com/gmallard/stompngo"
 	_ "github.com/go-redis/redis/v8"
 	_ "github.com/go-swagger/go-swagger"
@@ -41,6 +45,8 @@ import (
 	_ "github.com/invopop/jsonschema"
 	_ "github.com/lib/pq"
 	_ "github.com/oklog/ulid"
+	_ "github.com/opensearch-project/opensearch-go"
+	_ "github.com/opensearch-project/opensearch-go/v2"
 	_ "github.com/paulmach/orb"
 	_ "github.com/proullon/ramsql/driver"
 	_ "github.com/subosito/gotenv"
@@ -74,30 +80,9 @@ type Property struct {
 
 func main() {
 
-	myCustomResolver := func(service, region string, optFns ...func(*endpoints.Options)) (endpoints.ResolvedEndpoint, error) {
-		resolved, err := endpoints.DefaultResolver().EndpointFor(service, region, optFns...)
-		newUrl := strings.ReplaceAll(resolved.URL, "amazonaws.com", "newbie.org")
-		resolved.URL = newUrl
-
-		return resolved, err
-	}
-
-	sess := session.Must(session.NewSession(&aws.Config{
-		Region:           aws.String("us-west-2"),
-		EndpointResolver: endpoints.ResolverFunc(myCustomResolver),
-	}))
-
-	stsSvc := sts.New(sess)
-	req, _ := stsSvc.GetCallerIdentityRequest(&sts.GetCallerIdentityInput{})
 	fmt.Println(req.HTTPRequest.URL.String())
 
 	fields := map[string]bool{"TID": true, "Thing": true}
-	csvData := []byte(
-		`TID,Thing,Val
-A,optional,1
-B,mandatory,2
-C,junk,3`)
-
 	csvReader := csv.NewReader(bytes.NewReader(csvData))
 	csvReader.LazyQuotes = true
 	line, err := csvReader.Read()
