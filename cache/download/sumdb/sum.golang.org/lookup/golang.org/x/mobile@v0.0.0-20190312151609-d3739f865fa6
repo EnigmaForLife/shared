@@ -3,7 +3,7 @@ golang.org/x/mobile v0.0.0-20190312151609-d3739f865fa6 h1:Tus/Y4w3V77xDsGwKUC8a/
 golang.org/x/mobile v0.0.0-20190312151609-d3739f865fa6/go.mod h1:z+o9i4GpDbdi3rU15maQ/Ox0txvL9dWGYEHz965HBQE=
 
 go.sum database tree
-17595295
-avl5UznSlNqkoKVdwuMIPpfY9XEMEiEETYu5LPOQgAQ=
+17872835
++qxPuoTACZnkeqwcKZQ3D9TcRdlzJV6078J1cc2UT1o=
 
-— sum.golang.org Az3grhZkCByUe/SyQtlxavcKjPGqM8Frguese+nVriNJFcV/BQ0fsWO2LXAiRzNvM8mZU2Uom0VQBDHZKJ7kDcEZVgo=
+— sum.golang.org Az3grojNSmMpTY0QvbXadkAokMFDoIHIXIomcMBFf4y64ONGqbEFcMt5sXce03bs0jWe8mPTjwcCFRy0m1bgsPGOPgE=

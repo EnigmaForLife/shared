@@ -2,11 +2,14 @@
 set -x
 set -e
 
+#List all packages
+#go list -m all
+
 go clean -cache
 go clean -modcache
 
 # Download/update latest in go.mod
-go get -u ./...
+go get -d -u -t ./...
 
 #go get -u golang.org/x/tools/gopls/...
 go install golang.org/x/tools/gopls@latest

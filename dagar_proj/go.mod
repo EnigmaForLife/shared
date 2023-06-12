@@ -3,6 +3,7 @@ module dagar
 go 1.20
 
 require (
+	github.com/mclaeysb/simplepolygon v0.0.0-20191009091400-9ff051b2dd1c
 	cirello.io/dynamolock/v2 v2.0.2
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/StefanSchroeder/Golang-Ellipsoid v0.0.0-20221004092235-f00a9ab04789
@@ -27,13 +28,14 @@ require (
 	github.com/cweill/gotests v1.6.0
 	github.com/gmallard/stompngo v1.0.13
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/go-swagger/go-swagger v0.30.4
+	github.com/go-swagger/go-swagger v0.30.5
 	github.com/google/uuid v1.3.0
 	github.com/hashicorp/go-secure-stdlib/awsutil v0.2.2
 	github.com/hashicorp/vault/api v1.9.2
 	github.com/hashicorp/vault/api/auth/aws v0.4.1
 	github.com/invopop/jsonschema v0.7.0
 	github.com/lib/pq v1.10.9
+	github.com/mmcloughlin/geohash v0.10.0
 	github.com/oklog/ulid v1.3.1
 	github.com/opensearch-project/opensearch-go v1.1.0
 	github.com/opensearch-project/opensearch-go/v2 v2.3.0
@@ -57,13 +59,14 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/v4a v1.0.25 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.1.28 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.14.2 // indirect
+	github.com/mclaeysb/simplepolygon v0.0.0-20191009091400-9ff051b2dd1c // indirect
 )
 
 require (
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
-	github.com/aws/aws-sdk-go v1.44.275 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.25 // indirect
+	github.com/aws/aws-sdk-go v1.44.280 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.25
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.52
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.13.3 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.1.33 // indirect
@@ -92,7 +95,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.5.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
+	github.com/hashicorp/go-retryablehttp v0.7.4 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.7 // indirect
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
