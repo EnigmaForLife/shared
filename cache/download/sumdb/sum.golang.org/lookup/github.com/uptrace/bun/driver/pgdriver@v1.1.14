@@ -3,7 +3,7 @@ github.com/uptrace/bun/driver/pgdriver v1.1.14 h1:V2Etm7mLGS3mhx8ddxZcUnwZLX02Jm
 github.com/uptrace/bun/driver/pgdriver v1.1.14/go.mod h1:D4FjWV9arDYct6sjMJhFoyU71SpllZRHXFRRP2Kd0Kw=
 
 go.sum database tree
-17874911
-YdB9DGskIBjnfWK+TkpeuWLi3Osp2EdBedsEPTTNz1Y=
+18954468
+pvFcqaDZBhI+uIlrFJUqggxfq9PjQJUmdLe91bMMe7w=
 
-— sum.golang.org Az3grj0zcv1QuYFqTea9RbZtN4tddZ/ms75N3SsnLAJayIFkbtegZb/z5pVSMCoMoPhXx3Dqj2M1pI+vkKIvw9VPHQg=
+— sum.golang.org Az3grvfKXpkSdQpTg069NIfbNCOxSUx86VMqjPU/3gsrqy9zCcDrJ1lqk691ZUphkcRoRZBFxwC0nfjyiZU0YLjibgU=

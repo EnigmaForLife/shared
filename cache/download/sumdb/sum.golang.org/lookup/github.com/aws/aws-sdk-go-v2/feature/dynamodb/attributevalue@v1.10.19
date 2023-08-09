@@ -3,7 +3,7 @@ github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.19 h1:QBibysV
 github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.10.19/go.mod h1:sMgThC49I+7ud4V7stUsJwaaM6W/KYxRHl2A5pZDrE4=
 
 go.sum database tree
-17874908
-YoQGGldGA5bdOGATTxQx0wCFNdRg6bdtE8Gto12eZTk=
+18953733
+QyELIWSNlnD9TEWB3nitTCpnteYC6EGmRJA22fABbkk=
 
-— sum.golang.org Az3grvdmP1ifVXp3i3wn7ifYE0KRZg9vF9F99g0gI3kmjszTZbSYdeMZmV8PrEWSOQRA98n7ZcMYx8WVCDuJlhalOQo=
+— sum.golang.org Az3grtKUUiczoX40BD25tXhrG761bw+cqbfK6jb8SYHxn6oSMhO7g+tBpe7fwiRM3p+N1AHahziAwSUOOFXDmnLH+AQ=

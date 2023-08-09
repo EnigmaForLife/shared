@@ -3,7 +3,7 @@ github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.25 h1:1mnRASEKnkqsntcxHa
 github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.4.25/go.mod h1:zBHOPwhBc3FlQjQJE/D3IfPWiWaQmT06Vq9aNukDo0k=
 
 go.sum database tree
-17873214
-W8iihitOwR5rs7me1+CQijd385L2H3eHsfOlzRdmoVI=
+18953805
+J2yIJLr3EXc0TGo+kz1OgXapmy5UhIpbF3KkwvvOjHM=
 
-— sum.golang.org Az3grlgtLWtanToZbN1anqW7UVvV6+2fw0WnvlHOr86o5+sZhYu0cOEyQodPicWkTuTmaAIJ7u0fb0LyLKm3SlyLZAs=
+— sum.golang.org Az3grtTiqaZSEA3iWtzFBhcNzoafBEzGL3xvaEMvvNaUhFHsWrixD33BoDH0eXy0D6LnLXLFf0AtLMcj3cF/ScQ/fgo=

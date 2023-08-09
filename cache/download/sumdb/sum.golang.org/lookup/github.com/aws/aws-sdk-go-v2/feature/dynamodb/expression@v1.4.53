@@ -1,9 +1,0 @@
-17875969
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.53 h1:Cxk1uOy9aGqiqzJvpLkQpclFLUzo/OR5Rs3wQP+li4k=
-github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.4.53/go.mod h1:OFkJl612OAvbY1j5kHwuqsayXEUpFjPmNq0HiG5hooo=
-
-go.sum database tree
-17888007
-+hawjorCO2HkLidAZF3UNjXSvLtyhpc4dPgaZgT7UY0=
-
-— sum.golang.org Az3grlHBlDAXccBrHviNKLIG5n70HTzelvu8hkO7CN/Rl068fflLPbJtcudWqdgqlEq5oGsDsFI7mlb46/0oeTFXfQc=

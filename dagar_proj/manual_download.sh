@@ -1,7 +1,7 @@
 #!/bin/bash
 
-go clean -cache
-go clean -modcache
+#go clean -cache
+#go clean -modcache
 
 for item in $(cat manual_list.txt);do
     echo Now downloading ..... $item
