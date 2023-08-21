@@ -53,6 +53,8 @@ require (
 
 )
 
+require github.com/tidwall/pretty v1.0.0 // indirect
+
 require (
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
