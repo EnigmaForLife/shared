@@ -5,8 +5,9 @@ set -e
 #List all packages
 #go list -m all
 
-#go clean -cache
-#go clean -modcache
+go clean -cache
+go clean -modcache
+rm -rf ~/go*
 
 # Download/update latest in go.mod
 go get -d -u -t ./...

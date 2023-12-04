@@ -3,7 +3,7 @@ github.com/hashicorp/vault/api/auth/aws v0.5.0 h1:IKf0W3A2tXEtw9KrooslBWw72Ld63V
 github.com/hashicorp/vault/api/auth/aws v0.5.0/go.mod h1:U2Y6Ci/kDsUkDTzUXq0OKG2/GQkEtqzQjTY1YYSQFnk=
 
 go.sum database tree
-19782635
-vppLzC9z+5M3+DXEWvCYoGsaKTIlQ65ZdjTDntO2VRQ=
+20932587
+TMuFwTaR3J8445Hg+ydbCTpdthjYbPhzwjE2fQ5tQTo=
 
-— sum.golang.org Az3grjS4+R36ZjQsJ4nVVfIQ38lAhsRu8jAXMNdvhtNtqoe2z79k92conUL013SiGDyZBasmxzrDhG8vZ+00iBuBJwU=
+— sum.golang.org Az3grg/kFiEbG1toUDRm0RB9E22GIXHVJV16yEIu80rIdH1WBNi9QLXE3u1zwL4rF3sKB3XvCtr6jroJvlgCQe3d6QY=
