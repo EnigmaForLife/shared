@@ -46,6 +46,7 @@ require (
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
 	github.com/aws/aws-sdk-go v1.48.11 // indirect
+	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.5.3 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.25.11 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.16.9 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.12.9 // indirect
@@ -60,6 +61,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.10.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.8.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.10.8 // indirect
+	github.com/aws/aws-sdk-go-v2/service/lambda v1.49.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.18.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.21.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.26.2 // indirect
@@ -96,7 +98,9 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/oklog/ulid/v2 v2.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/redis/go-redis/v9 v9.3.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
