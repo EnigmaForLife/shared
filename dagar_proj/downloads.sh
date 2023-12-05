@@ -2,6 +2,7 @@
 set -x
 set -e
 
+export CGO_ENABLED=0
 #List all packages
 #go list -m all
 
