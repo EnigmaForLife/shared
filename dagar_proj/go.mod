@@ -55,6 +55,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.2.8 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.5.8 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.7.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi v1.17.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.26.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.18.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/iam v1.28.2 // indirect
