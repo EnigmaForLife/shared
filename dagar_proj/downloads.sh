@@ -6,9 +6,9 @@ export CGO_ENABLED=0
 #List all packages
 #go list -m all
 
-go clean -cache
-go clean -modcache
-rm -rf ~/go*
+#go clean -cache
+#go clean -modcache
+#rm -rf ~/go* go.sum
 
 # Download/update latest in go.mod
 go get -d -u -t ./...
@@ -37,4 +37,9 @@ go get -u go.mongodb.org/mongo-driver@v1.11.4
 
 go get -u github.com/tidwall/pretty@v1.0.0
 
+go get github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi@latest
+
 go mod tidy
+
+rsync -av ~/go/bin ~/shared/
+rsync -av ~/go/pkg/mod/cache ~/shared/

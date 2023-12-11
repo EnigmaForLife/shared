@@ -3,7 +3,7 @@ github.com/go-redis/redis v6.15.9+incompatible h1:K0pv1D7EQUjfyoMql+r/jZqCLizCGK
 github.com/go-redis/redis v6.15.9+incompatible/go.mod h1:NAIEuMOZ/fxfXJIrKDQDz8wamY7mA7PouImQ2Jvg6kA=
 
 go.sum database tree
-20930507
-N+oHWTizuN8JSse3cm6QvGJftqmecBG4ZfCq8xZtruo=
+21149633
+bkjiALZmyF0C+c84yCmsoR+cPX9a+rpccQrRG2uUBzI=
 
-— sum.golang.org Az3grjL40riTr00jsq5Kegmjmh2ZL5MvPGdaVMNTKeEzPYqkwqRL1qqrCZd6Vh6ooGCNYMyqaiI097jumbcKN4mcrgw=
+— sum.golang.org Az3grjBH7JE36OwhtHSt/A75eXZOjF3jrUDsBDOnPHTg5LeQElGBeOp5ThfKR8CO/dBohef/sadj6UzTF9geaC9MOQE=
