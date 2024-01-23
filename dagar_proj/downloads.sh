@@ -33,13 +33,7 @@ go install github.com/go-delve/delve/cmd/dlv@latest
 #go get -u github.com/jstemmer/go-junit-report/v2/junit/...
 go install github.com/jstemmer/go-junit-report/v2@latest
 
-go get -u go.mongodb.org/mongo-driver@v1.11.4
-
-go get -u github.com/tidwall/pretty@v1.0.0
-
-go get github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi@latest
-
 go mod tidy
 
-rsync -av ~/go/bin ~/shared/
-rsync -av ~/go/pkg/mod/cache ~/shared/
+rsync -av ~/go/bin ~/shared/ --delete 
+rsync -av ~/go/pkg/mod/cache ~/shared/ --delete 

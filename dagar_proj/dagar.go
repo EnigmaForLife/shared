@@ -18,6 +18,7 @@ import (
 	_ "github.com/clbanning/mxj/v2"
 	_ "github.com/cristalhq/jwt/v5"
 	_ "github.com/cweill/gotests"
+	_ "github.com/zhyee/zipstream"
 	_ "github.com/gmallard/stompngo"
 	_ "github.com/go-redis/redis/v8"
 	_ "github.com/go-swagger/go-swagger"
