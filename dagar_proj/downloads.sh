@@ -6,9 +6,9 @@ export CGO_ENABLED=0
 #List all packages
 #go list -m all
 
-#go clean -cache
-#go clean -modcache
-#rm -rf ~/go* go.sum
+go clean -cache
+go clean -modcache
+rm -rf ~/go* go.sum
 
 # Download/update latest in go.mod
 go get -d -u -t ./...
@@ -34,6 +34,8 @@ go install github.com/go-delve/delve/cmd/dlv@latest
 go install github.com/jstemmer/go-junit-report/v2@latest
 
 go mod tidy
+
+./manual_download.sh
 
 rsync -av ~/go/bin ~/shared/ --delete 
 rsync -av ~/go/pkg/mod/cache ~/shared/ --delete 

@@ -1,0 +1,1 @@
+{"Version":"v1.27.1","Time":"2024-02-15T19:16:01Z","Origin":{"VCS":"git","URL":"https://github.com/aws/aws-sdk-go-v2","Subdir":"service/secretsmanager","Ref":"refs/tags/service/secretsmanager/v1.27.1","Hash":"1bb048272ad54b3cbeb3b6da99f4be8090bea5d2"}}
