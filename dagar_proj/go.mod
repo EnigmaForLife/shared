@@ -11,7 +11,7 @@ require (
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10
 	github.com/antlr4-go/antlr/v4 v4.13.0
 	github.com/aws/aws-lambda-go v1.46.0
-	github.com/aws/aws-sdk-go-v2 v1.25.1
+	github.com/aws/aws-sdk-go-v2 v1.25.2
 	github.com/clbanning/mxj/v2 v2.7.0
 	github.com/cristalhq/jwt/v5 v5.4.0
 	github.com/cweill/gotests v1.6.0
@@ -57,7 +57,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.1 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.1 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.0 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.0 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/v4a v1.3.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi v1.18.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.35.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.29.0 // indirect
