@@ -6,12 +6,12 @@ export CGO_ENABLED=0
 #List all packages
 #go list -m all
 
-go clean -cache
-go clean -modcache
-rm -rf ~/go* go.sum
+#go clean -cache
+#go clean -modcache
+#rm -rf ~/go* go.sum
 
 # Download/update latest in go.mod
-go get -d -u -t ./...
+#go get -d -u -t ./...
 
 #go get -u golang.org/x/tools/gopls/...
 go install golang.org/x/tools/gopls@latest
@@ -33,9 +33,9 @@ go install github.com/go-delve/delve/cmd/dlv@latest
 #go get -u github.com/jstemmer/go-junit-report/v2/junit/...
 go install github.com/jstemmer/go-junit-report/v2@latest
 
-go mod tidy
+#go mod tidy
 
-./manual_download.sh
+#./manual_download.sh
 
 rsync -av ~/go/bin ~/shared/ --delete 
 rsync -av ~/go/pkg/mod/cache ~/shared/ --delete 
