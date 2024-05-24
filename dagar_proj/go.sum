@@ -310,6 +310,10 @@ github.com/hashicorp/vault/api v1.12.2 h1:7YkCTE5Ni90TcmYHDBExdt4WGJxhpzaHqR6uGb
 github.com/hashicorp/vault/api v1.12.2/go.mod h1:LSGf1NGT1BnvFFnKVtnvcaLBM2Lz+gJdpL6HUYed8KE=
 github.com/hashicorp/vault/api/auth/aws v0.6.0 h1:L4mBSAW44EjgX4OJ3w6aDXQeehuGE9OMY9ldNbKgGXM=
 github.com/hashicorp/vault/api/auth/aws v0.6.0/go.mod h1:m4ye0+jgUsLtE+UBszQFgz+0fRiE4qF7MDWgI+mDxbg=
+github.com/ibm-messaging/mq-golang-jms20 v1.10.0 h1:o4St8R12iCWjP3qWY06nd1xsXOd6stwoKOoPtTvH2fE=
+github.com/ibm-messaging/mq-golang-jms20 v1.10.0/go.mod h1:WAzws+c+sN0Yc8fyi25UJG/45vR2ZX4qOo9z0voXAZo=
+github.com/ibm-messaging/mq-golang/v5 v5.3.2 h1:PFbOddNpgy9/whl+mH77kO61zyEeNcm4SYs2bk58Kq8=
+github.com/ibm-messaging/mq-golang/v5 v5.3.2/go.mod h1:NELV8CYOIIH1QmY6pPvulRKjwuih9YAIL9rg8+UNzNw=
 github.com/invopop/jsonschema v0.12.0 h1:6ovsNSuvn9wEQVOyc72aycBMVQFKz7cPdMJn10CvzRI=
 github.com/invopop/jsonschema v0.12.0/go.mod h1:ffZ5Km5SWWRAIN6wbDXItl95euhFz2uON45H2qjYt+0=
 github.com/jackc/pgpassfile v1.0.0 h1:/6Hmqy13Ss2zCq62VdNG8tM1wchn8zjSGOBJ6icpsIM=
@@ -440,6 +444,7 @@ github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.7.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.7.2/go.mod h1:R6va5+xMeoiuVRoj+gSkQ7d3FALtqAAGI1FQKckRals=
 github.com/stretchr/testify v1.8.0/go.mod h1:yNjHg4UonilssWZ8iaSj1OCr/vHnekPRkoO+kdMU+MU=
+github.com/stretchr/testify v1.8.1/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/stretchr/testify v1.8.2/go.mod h1:w2LPCIKwWwSfY2zedu0+kehJoqGctiVI29o6fzry7u4=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
 github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXlSw2iwfAo=

@@ -108,6 +108,8 @@ require (
 	github.com/hashicorp/go-sockaddr v1.0.6 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/ibm-messaging/mq-golang-jms20 v1.10.0 // indirect
+	github.com/ibm-messaging/mq-golang/v5 v5.3.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
