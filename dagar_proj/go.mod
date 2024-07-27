@@ -11,9 +11,9 @@ require (
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10
 	github.com/antlr4-go/antlr/v4 v4.13.0
 	github.com/aws/aws-lambda-go v1.46.0
-	github.com/aws/aws-sdk-go-v2 v1.26.1
-	github.com/aws/aws-sdk-go-v2/config v1.27.11
-	github.com/aws/aws-sdk-go-v2/credentials v1.17.11
+	github.com/aws/aws-sdk-go-v2 v1.30.1
+	github.com/aws/aws-sdk-go-v2/config v1.27.23
+	github.com/aws/aws-sdk-go-v2/credentials v1.17.23
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.13.13
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/expression v1.7.13
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.16.15
@@ -90,24 +90,25 @@ require (
 	github.com/alingse/asasalint v0.0.11 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/apache/qpid-proton v0.0.0-20240529191021-813f87eef9e4 // indirect
+	github.com/aptpod/iscp-go v1.0.0 // indirect
 	github.com/ashanbrown/forbidigo v1.6.0 // indirect
 	github.com/ashanbrown/makezero v1.1.1 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
-	github.com/aws/aws-sdk-go v1.51.19 // indirect
+	github.com/aws/aws-sdk-go v1.54.12 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.2 // indirect
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.1 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.5 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.5 // indirect
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.9 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.13 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.13 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.20.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/iam v1.31.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.9.6 // indirect
-	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.11.7 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sso v1.20.5 // indirect
-	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.23.4 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.28.6 // indirect
-	github.com/aws/smithy-go v1.20.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.11.15 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sso v1.22.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.26.1 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.30.1 // indirect
+	github.com/aws/smithy-go v1.20.3 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bkielbasa/cyclop v1.2.1 // indirect
@@ -134,6 +135,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/denis-tingaikin/go-header v0.4.3 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/drewjya/stomp-ws v0.1.3 // indirect
 	github.com/esimonov/ifshort v1.0.4 // indirect
 	github.com/ettle/strcase v0.2.0 // indirect
 	github.com/fatih/color v1.16.0 // indirect
@@ -173,6 +175,7 @@ require (
 	github.com/google/flatbuffers v24.3.25+incompatible // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/gordonklaus/ineffassign v0.1.0 // indirect
+	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/gostaticanalysis/analysisutil v0.7.1 // indirect
 	github.com/gostaticanalysis/comment v1.4.2 // indirect
 	github.com/gostaticanalysis/forcetypeassert v0.1.0 // indirect
@@ -244,6 +247,7 @@ require (
 	github.com/nunnatsa/ginkgolinter v0.15.2 // indirect
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
+	github.com/opensearch-project/opensearch-go/v4 v4.1.0 // indirect
 	github.com/orcaman/concurrent-map/v2 v2.0.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -282,8 +286,8 @@ require (
 	github.com/spf13/viper v1.16.0 // indirect
 	github.com/ssgreg/nlreturn/v2 v2.2.1 // indirect
 	github.com/stbenjam/no-sprintf-host-port v0.1.1 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
-	github.com/stretchr/testify v1.8.4 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
+	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/t-yuki/gocover-cobertura v0.0.0-20180217150009-aaee18c8195c // indirect
 	github.com/tdakkota/asciicheck v0.2.0 // indirect
 	github.com/tetafro/godot v1.4.16 // indirect
@@ -341,4 +345,5 @@ require (
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed // indirect
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 	mvdan.cc/unparam v0.0.0-20240104100049-c549a3470d14 // indirect
+	nhooyr.io/websocket v1.8.10 // indirect
 )
