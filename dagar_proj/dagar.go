@@ -62,14 +62,15 @@ import (
 	_ "github.com/uptrace/bun/dialect/pgdialect"
 	_ "github.com/uptrace/bun/driver/pgdriver"
 	_ "github.com/zhyee/zipstream"
-	_ "go.mongodb.org/mongo-driver"
-	_ "go.mongodb.org/mongo-driver/mongo"
 	_ "golang.org/x/net/dns/dnsmessage"
 	_ "golang.org/x/text"
 	_ "gonum.org/v1/gonum"
 	_ "google.golang.org/grpc/credentials/insecure"
 	_ "gopkg.in/tomb.v2"
 	_ "gorgonia.org/gorgonia"
+	_ "github.com/aws/aws-sdk-go-v2/service/bedrock"
+	_ "gorm.io/gorm"
+	_ "gorm.io/driver/postgres"
 )
 
 var _ vault.Auth
