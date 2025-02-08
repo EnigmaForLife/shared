@@ -3,7 +3,7 @@ github.com/hashicorp/go-secure-stdlib/awsutil v0.3.0 h1:I8bynUKMh9I7JdwtW9voJ0xm
 github.com/hashicorp/go-secure-stdlib/awsutil v0.3.0/go.mod h1:oKHSQs4ivIfZ3fbXGQOop1XuDfdSb8RIsWTGaAanSfg=
 
 go.sum database tree
-33333791
-54jjlJ9KvRfLFq8hyHI6xCecdPQ6zOtFb03dWJDE0g0=
+34470527
+o1PDWeMqJd04SshopftpujWkcjc1uNuwT/7Mvd2QLGA=
 
-— sum.golang.org Az3grv8tVAWxXsAExZE4mB/MMaNNH+SVKT1oRwcVydf74KxmimdqJMflcLXWR+p0iBsETVdptn6CU8h+XhXEOCAfUA8=
+— sum.golang.org Az3grn0hEah2hx9d68uLmVdJhaATS55JC/klRGQlQiik78ZXuGOZvzyPRwIVtWqU1wnJbqJJsPOzCsihjWgDaSkldgM=

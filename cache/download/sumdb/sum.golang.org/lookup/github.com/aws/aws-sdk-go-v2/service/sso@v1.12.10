@@ -3,7 +3,7 @@ github.com/aws/aws-sdk-go-v2/service/sso v1.12.10 h1:UBQjaMTCKwyUYwiVnUt6toEJwGX
 github.com/aws/aws-sdk-go-v2/service/sso v1.12.10/go.mod h1:ouy2P4z6sJN70fR3ka3wD3Ro3KezSxU6eKGQI2+2fjI=
 
 go.sum database tree
-33331884
-as74rgp/JOqn+zo30BwqjVFG9Y7T4Vi/ByATIJey/VM=
+34471395
+AaHlepP74PM6ebdXYjJ+dkIRbN0Vu9RKmjaezR67V68=
 
-— sum.golang.org Az3grgNatacCJZzKcrzQQPAVZ6zGyTez0YcQYkruMYdZSgG40biwCF84myGXisnZOQYXwbswjWHgXRxvniWFmFp3IQY=
+— sum.golang.org Az3grpDcsbp70PoV2/Z0xbCAQFjcUTQjZgp+/xvA8Ui6ZW6OEek/vvD83DcEyWuUkxhSbJh7aAF4Fw0Xeb+2hm+f2QM=

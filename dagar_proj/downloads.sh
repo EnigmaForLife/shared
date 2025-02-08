@@ -6,9 +6,9 @@ export CGO_ENABLED=0
 #List all packages
 #go list -m all
 
-#go clean -cache
-#go clean -modcache
-#rm -rf ~/go* go.sum
+go clean -cache
+go clean -modcache
+rm -rf ~/go* go.sum
 
 # Download/update latest in go.mod
 #go get -d -u -t ./...
@@ -24,7 +24,8 @@ go install honnef.co/go/tools/cmd/staticcheck@latest
 #go install github.com/securego/gosec@latest
 
 # binary will be $(go env GOPATH)/bin/gosec
-curl -sfL https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v2.17.0
+curl -sfL https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh \
+    -s -- -b $(go env GOPATH)/bin v2.22.0
 
 #go get -u github.com/ramya-rao-a/go-outline/...
 #go install github.com/ramya-rao-a/go-outline@latest
@@ -38,6 +39,9 @@ go install github.com/jstemmer/go-junit-report/v2@latest
 #go mod tidy
 
 #./manual_download.sh
+
+go get github.com/twpayne/go-geom
+go get github.com/go-geospatial/antimeridian
 
 rsync -av ~/go/bin ~/shared/ --delete 
 rsync -av ~/go/pkg/mod/cache ~/shared/ --delete 

@@ -3,7 +3,7 @@ github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 h1:iCEnooe7Ulw
 github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761/go.mod h1:5TJZWKEWniPve33vlWYSoGYefn3gLQRzjfDlhSJ9ZKM=
 
 go.sum database tree
-33329748
-+o6k4J16DR6d5pNKQ8rDzFfbgz3RIbagN5HF/EbCOdw=
+34471042
+uqrGAv2XQ04lWCj0HUPcThYZGTH7dDfTAJBz7haQ0Do=
 
-— sum.golang.org Az3grs+g5sFeab4s4/0CukBpn1dA4hsin4p1mZ/qKJZMauoDqsi0R+vxxkEyFnJ8J2ZlJtzW/CZ5gb0y4PTtqh/yOA8=
+— sum.golang.org Az3groHO0Ks9Uveplea2qmNA+dhbqqbYPMwnej2HIC1hkuORULAORONiYu9AYgn30eX9Y8eE6EZom/xwMDw/gn2NjQo=

@@ -3,7 +3,7 @@ github.com/aws/aws-lambda-go v1.47.0 h1:0H8s0vumYx/YKs4sE7YM0ktwL2eWse+kfopsRI1s
 github.com/aws/aws-lambda-go v1.47.0/go.mod h1:dpMpZgvWx5vuQJfBt0zqBha60q7Dd7RfgJv23DymV8A=
 
 go.sum database tree
-33328043
-PaTMTz9g5RcDDxWKLIxVuGgdxlu5EBWvf/WSUoKPil8=
+34471243
+2aLKNIiA7ZlIwdSSMrWVWSGVKUpmto7vJIuLo1oLY2g=
 
-— sum.golang.org Az3grg74Cv7edn28k0y8yNmxU7hiRsQZw67kqn7KKGo1PWz+I6HF4P5F4WjUlifsmldldBXQmP5TG6t+reM0czL5+QE=
+— sum.golang.org Az3gruhKY+f0eoznvWzLRRKeD5krpMSLGBWRgyB6hN5sdIcxTDyzFBZ83ejyRCZtI5fZfohnCrjDD8f1GyP1Ngj2dAM=

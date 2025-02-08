@@ -3,7 +3,7 @@ gorm.io/driver/postgres v1.5.11 h1:ubBVAfbKEUld/twyKZ0IYn9rSQh448EdelLYk9Mv314=
 gorm.io/driver/postgres v1.5.11/go.mod h1:DX3GReXH+3FPWGrrgffdvCk3DQ1dwDPdmbenSkweRGI=
 
 go.sum database tree
-33332464
-IqCwoWIojXUZ4CkOjOmktQ2OhhrvtYLOS0l1v74NCSg=
+34471395
+AaHlepP74PM6ebdXYjJ+dkIRbN0Vu9RKmjaezR67V68=
 
-— sum.golang.org Az3grs4HWQr8yvndmXrznVnSuDtJXqjCJl9j8nGIKwVWhi+SYFaAhiV+uYPKpVzK+WFgxr+f1ENvbuLzGzqkC23Pdgw=
+— sum.golang.org Az3grpDcsbp70PoV2/Z0xbCAQFjcUTQjZgp+/xvA8Ui6ZW6OEek/vvD83DcEyWuUkxhSbJh7aAF4Fw0Xeb+2hm+f2QM=

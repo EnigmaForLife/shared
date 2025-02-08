@@ -3,7 +3,7 @@ github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.10 h1:PkHIIJs8qvq0e5QybnZoG1K
 github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.10/go.mod h1:AFvkxc8xfBe8XA+5St5XIHHrQQtkxqrRincx4hmMHOk=
 
 go.sum database tree
-33330231
-chAYPCbDlhTfgHJlzGAkxr/efJx00kBhYNI6kLmrRkI=
+34471463
+cPmfkYPFNDD8/MJjkOrBbaH3z6Utbgnc1Ow6RBF5QG0=
 
-— sum.golang.org Az3gri/+5+zzoR5I8uyTJm8KhRJqipfbXpm3aAPrmrpwXTCWl4WbMTV0AupTDnVrp61Ohj2mSiLbDkd69hI0E+kJ1wE=
+— sum.golang.org Az3grgC2GfBq2X4IZwmBHA/gYMzztHiU3VUnwz3U8s7jvoagBekVt9eSTMq8VBcH12LNEel5lkSwvUWFTnBL+ekv6ws=
