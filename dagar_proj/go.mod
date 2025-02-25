@@ -66,6 +66,8 @@ require (
 	gorgonia.org/gorgonia v0.9.18
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.25.12
+	github.com/dlclark/regexp2 v1.11.5
+
 //github.com/aws/aws-sdk-go-v2/aws/retry v1.26.1
 //github.com/aws/aws-sdk-go-v2/aws/transport/http v1.26.1
 )

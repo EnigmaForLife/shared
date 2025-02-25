@@ -26,6 +26,7 @@ import (
 	_ "github.com/aws/aws-sdk-go-v2/service/apigateway"
 	_ "github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi"
 	_ "github.com/aws/aws-sdk-go-v2/service/apigatewayv2"
+	_ "github.com/aws/aws-sdk-go-v2/service/bedrock"
 	_ "github.com/aws/aws-sdk-go-v2/service/cloudwatch"
 	_ "github.com/aws/aws-sdk-go-v2/service/dynamodb"
 	_ "github.com/aws/aws-sdk-go-v2/service/elasticache"
@@ -41,6 +42,7 @@ import (
 	_ "github.com/clbanning/mxj/v2"
 	_ "github.com/cristalhq/jwt/v5"
 	_ "github.com/cweill/gotests"
+	_ "github.com/dlclark/regexp2"
 	_ "github.com/gmallard/stompngo"
 	_ "github.com/go-redis/redis/v8"
 	_ "github.com/go-swagger/go-swagger"
@@ -68,9 +70,8 @@ import (
 	_ "google.golang.org/grpc/credentials/insecure"
 	_ "gopkg.in/tomb.v2"
 	_ "gorgonia.org/gorgonia"
-	_ "github.com/aws/aws-sdk-go-v2/service/bedrock"
-	_ "gorm.io/gorm"
 	_ "gorm.io/driver/postgres"
+	_ "gorm.io/gorm"
 )
 
 var _ vault.Auth
