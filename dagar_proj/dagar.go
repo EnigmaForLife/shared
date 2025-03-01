@@ -71,6 +71,7 @@ import (
 	_ "gopkg.in/tomb.v2"
 	_ "gorgonia.org/gorgonia"
 	_ "gorm.io/driver/postgres"
+	_ "gorm.io/driver/sqlite"
 	_ "gorm.io/gorm"
 )
 

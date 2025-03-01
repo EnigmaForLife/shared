@@ -37,6 +37,7 @@ require (
 	github.com/clbanning/mxj/v2 v2.7.0
 	github.com/cristalhq/jwt/v5 v5.4.0
 	github.com/cweill/gotests v1.6.0
+	github.com/dlclark/regexp2 v1.11.5
 	github.com/gmallard/stompngo v1.0.13
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-swagger/go-swagger v0.31.0
@@ -66,7 +67,6 @@ require (
 	gorgonia.org/gorgonia v0.9.18
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.25.12
-	github.com/dlclark/regexp2 v1.11.5
 
 //github.com/aws/aws-sdk-go-v2/aws/retry v1.26.1
 //github.com/aws/aws-sdk-go-v2/aws/transport/http v1.26.1
@@ -128,6 +128,7 @@ require (
 	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -155,5 +156,6 @@ require (
 	gorgonia.org/tensor v0.9.24 // indirect
 	gorgonia.org/vecf32 v0.9.0 // indirect
 	gorgonia.org/vecf64 v0.9.0 // indirect
+	gorm.io/driver/sqlite v1.5.7 // indirect
 	mellium.im/sasl v0.3.2 // indirect
 )
