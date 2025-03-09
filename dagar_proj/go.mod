@@ -73,6 +73,8 @@ require (
 )
 
 require (
+	github.com/Jeffail/gabs v1.4.0 // indirect
+	github.com/Jeffail/gabs/v2 v2.7.0 // indirect
 	github.com/apache/arrow/go/arrow v0.0.0-20211112161151-bc219186db40 // indirect
 	github.com/awalterschulze/gographviz v2.0.3+incompatible // indirect
 	github.com/aws/aws-sdk-go v1.55.5 // indirect
