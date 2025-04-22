@@ -11,7 +11,7 @@ require (
 	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10
 	github.com/antlr4-go/antlr/v4 v4.13.1
 	github.com/aws/aws-lambda-go v1.47.0
-	github.com/aws/aws-sdk-go-v2 v1.32.7
+	github.com/aws/aws-sdk-go-v2 v1.36.3
 	github.com/aws/aws-sdk-go-v2/config v1.28.7
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.48
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.15.23
@@ -21,6 +21,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/apigateway v1.28.2
 	github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi v1.23.8
 	github.com/aws/aws-sdk-go-v2/service/apigatewayv2 v1.24.8
+	github.com/aws/aws-sdk-go-v2/service/athena v1.50.4
 	github.com/aws/aws-sdk-go-v2/service/bedrock v1.25.2
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.43.4
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.39.0
@@ -54,10 +55,12 @@ require (
 	github.com/proullon/ramsql v0.1.4
 	github.com/redis/go-redis/v9 v9.7.0
 	github.com/subosito/gotenv v1.6.0
+	github.com/tmc/langgraphgo v0.0.0-20240324234251-3b0caeaffd16
 	github.com/ugorji/go/codec v1.2.12
 	github.com/uptrace/bun v1.2.8
 	github.com/uptrace/bun/dialect/pgdialect v1.2.8
 	github.com/uptrace/bun/driver/pgdriver v1.2.8
+	github.com/xitongsys/parquet-go v1.6.2
 	github.com/zhyee/zipstream v0.0.0-20230625125559-133d8d1afaa0
 	golang.org/x/net v0.34.0
 	golang.org/x/text v0.21.0
@@ -67,6 +70,7 @@ require (
 	gorgonia.org/gorgonia v0.9.18
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.25.12
+	github.com/openai/openai-go v0.1.0-beta.10
 
 //github.com/aws/aws-sdk-go-v2/aws/retry v1.26.1
 //github.com/aws/aws-sdk-go-v2/aws/transport/http v1.26.1
@@ -80,8 +84,8 @@ require (
 	github.com/aws/aws-sdk-go v1.55.5 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.6.7 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.22 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.26 // indirect
-	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.26 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/configsources v1.3.34 // indirect
+	github.com/aws/aws-sdk-go-v2/internal/endpoints/v2 v2.6.34 // indirect
 	github.com/aws/aws-sdk-go-v2/internal/ini v1.8.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/dynamodbstreams v1.24.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/iam v1.38.3 // indirect
@@ -91,7 +95,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.24.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.28.7 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.33.3 // indirect
-	github.com/aws/smithy-go v1.22.1 // indirect
+	github.com/aws/smithy-go v1.22.2 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/cenkalti/backoff/v3 v3.2.2 // indirect
@@ -133,9 +137,14 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/openai/openai-go v0.1.0-beta.10 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.4.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
+	github.com/tidwall/gjson v1.14.4 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.1 // indirect
+	github.com/tidwall/sjson v1.2.5 // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
 	github.com/twpayne/go-geom v1.6.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
