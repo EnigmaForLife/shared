@@ -50,6 +50,7 @@ require (
 	github.com/lib/pq v1.10.9
 	github.com/oklog/ulid v1.3.1
 	github.com/oklog/ulid/v2 v2.1.0
+	github.com/openai/openai-go v0.1.0-beta.10
 	github.com/opensearch-project/opensearch-go/v2 v2.3.0
 	github.com/paulmach/orb v0.11.1
 	github.com/proullon/ramsql v0.1.4
@@ -70,7 +71,6 @@ require (
 	gorgonia.org/gorgonia v0.9.18
 	gorm.io/driver/postgres v1.5.11
 	gorm.io/gorm v1.25.12
-	github.com/openai/openai-go v0.1.0-beta.10
 
 //github.com/aws/aws-sdk-go-v2/aws/retry v1.26.1
 //github.com/aws/aws-sdk-go-v2/aws/transport/http v1.26.1
@@ -137,7 +137,6 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/openai/openai-go v0.1.0-beta.10 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.4.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
@@ -150,6 +149,9 @@ require (
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/wk8/go-ordered-map/v2 v2.1.8 // indirect
+	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
+	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
+	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/xtgo/set v1.0.0 // indirect
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20231121144256-b99613f794b6 // indirect
 	golang.org/x/crypto v0.32.0 // indirect
